@@ -1,0 +1,18 @@
+sistema de control de versiones
+
+Guarda los cambios
+
+git bash: consola de git
+    - git init
+    - git add .: añade todos los archivos nuevos, - git add nombreArchivo: agrega cambios de archivo específico.
+    - git commit -m "mensaje": envía a la base de datos los cambios y los archivos añadidos
+    - git status: ver el estatus de la base
+    - git show: ve la línea del tiempo de todos los cambios
+    - git log archivo: muestra los cambios históricos del archivo
+    - git push: enviar al repositorio remoto
+
+Edición de texto plano, no se recomienda el uso de texto binario en git 
+
+08/43
+
+
