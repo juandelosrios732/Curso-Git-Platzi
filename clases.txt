@@ -15,4 +15,34 @@ Edición de texto plano, no se recomienda el uso de texto binario en git
 
 08/43
 
+------------------------------------------------------------
 
+- git log: ver el historial de cambios de los archivos
+- se usa --palabra para ejecutar um comando que es una palabrba
+- git show muestra los cambios
+- salir: esc + shift + zz:  guerda y fuerza la salida del vim
+- git checkout: traer los cambios hasta la carpeta desde un cambio realizado afuera del repositorio. Ver estados de un archivo anterior.
+- git checkout master: traer el último commit
+
+clase 11/43
+
+------------------------------------------------------------
+Ramas:
+- master
+- development: Experimentar
+- -hotfix: cambios urgentes
+
+-----------------------------------------------------------
+
+- es mejor usar checkout y no reset, porque al usar reset se pierde todo lo hecho hasta el momento
+
+TRES ARBOLES EN GIT: 
+
+- git reset --soft: borra el historial y los registros de Git de commits anteriores, pero guarda los cambios en staging para aplicar las ultimas actualizaciones con un nuevo commit
+- git reset --hard: Deshace todo, absolutamente todo. toda la indormación de los commits y el área de staging se elimina del historial
+- git reset --mixed: borra todo, exactamente toda la ina infomrmacipn de los commits y del area de staging se elimita del historial
+- git reset head: saca archivos del area de staging sin borrarlos nii realizar otras acciones. Impide que los ultimos camboos de los archivos se envien al ultimo commit. Podemos incluir de nuevo un staging con git add si cambiamos de opinion
+
+
+
+Estamos en prueba de borrar cambios
