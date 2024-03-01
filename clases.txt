@@ -57,3 +57,5 @@ Git pull: traer los cambios del repositorio remoto al repositorio local
 -------------------------------------------------------
 
 Introducción a Ramas: cambios sin afectar las ramas principales
+
+- git branch nombreRama
