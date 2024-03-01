@@ -46,3 +46,14 @@ TRES ARBOLES EN GIT:
 
 
 Estamos en prueba de borrar cambios
+
+
+-------------------------------------------------------
+
+Git push: enviar el repositorio local al repositorio remoto
+
+Git pull: traer los cambios del repositorio remoto al repositorio local
+
+-------------------------------------------------------
+
+Introducción a Ramas: cambios sin afectar las ramas principales
