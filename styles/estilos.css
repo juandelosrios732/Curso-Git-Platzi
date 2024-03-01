@@ -1,5 +1,12 @@
+
+p {
+    background-color: chocolate;
+}
 body {
     text-align: center;
     color: #000;
 }
 
+.cabecera {
+    background-color: salmon;
+}
