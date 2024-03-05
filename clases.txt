@@ -61,3 +61,5 @@ Introducción a Ramas: cambios sin afectar las ramas principales
 - git branch nombreRama
 
 Merge, desde master traer la rama que se quiere
+
+git branch -m main
