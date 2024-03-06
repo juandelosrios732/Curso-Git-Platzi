@@ -63,3 +63,17 @@ Introducción a Ramas: cambios sin afectar las ramas principales
 Merge, desde master traer la rama que se quiere
 
 git branch -m main
+
+git remote add origin pegarlink
+git pill origin main
+git pull origin main --allow-unrelated-histories
+
+git log --old
+
+git log --all --graph --decorate --oneline
+
+alias arbolito="git log --all --graph --decorate --oneline"
+
+tag: copiar el código: git tag -a v0.1 -m "Mensaje que acompañará el tag" código(hash)
+
+    - los tags no son cambios, son útiles en gitHub
